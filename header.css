@@ -1,0 +1,162 @@
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.header{
+    width: 100%;
+    min-width: 1200px;
+    background-color: #fff;
+    border-bottom: 1px solid #d8d8d8;
+}
+
+.header .header-inner{
+    width: 1200px;
+    height: 80px;
+    margin: 0 auto;
+}
+
+.header .header-inner a.logo{
+    background: url(../img/logo.png) no-repeat;
+    width: 133px;
+    height: 80px;
+    line-height: 20em;
+    float: left;
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+.header .header-inner .city-container{
+    width: 70px;
+    height: 100%;
+    float: left;
+    margin: 0 8px;
+}
+
+.header .header-inner .city-container .city-selected{
+    cursor: pointer;
+    height: 100%;
+    padding: 0 10px;
+    border: 1px solid transparent;
+    border-width: 0 1px;
+}
+
+
+.header .header-inner .city-container .city-selected .city-name{
+    display: inline-block;
+    color: #333;
+    margin-top: 32px;
+}
+
+.header .nav{
+    width: 530px;
+    float: left;
+}
+
+.header .nav a{
+    float: left;
+    width: 75.5px;
+    height: 80px;
+    line-height: 80px;
+    font-size: 18px;
+    text-align: center;
+    color: #333;
+}
+
+.header .nav a.selected{
+    background-color: #ef4238;
+    color: #fff;
+}
+
+.header .user-info{
+    float: right;
+    height: 100%;
+}
+
+.header .user-info .user-avatar{
+    display: block;
+    border: 1px solid transparent;
+    padding: 0 10px;
+    width: 56px;
+    height: 100%;
+}
+
+.header .user-info .user-avatar img{
+    margin-top: 20px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.header .search{
+    float: right;
+    width: 220px;
+    height: 40px;
+    margin: 20px 10px 0 0;
+    position: relative;
+}
+
+.header .search .txt{
+    display: inline-block;
+    height: 40px;
+    line-height: 1.2;
+    width: 220px;
+    padding: 0 40px 0 20px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-size: 14px;
+    border-radius: 30px;
+    background-color: #faf8fa;
+    overflow: hidden;
+    color: #333;
+}
+
+.header .search button{
+    background: url(../img/button.png);
+    display: inline-block;
+    position: absolute;
+    left: 180px;
+    top: 0;
+    height: 40px;
+    width: 40px;
+    background-color: #ef4238;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.header .app-download{
+    float: right;
+    width: 132px;
+    height: 80px;
+    margin-right: 10px;
+}
+
+.header .app-download a{
+    display: block;
+    padding-top: 28px;
+    padding-left: 14px;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.header .app-download a .iphone-icon{
+    background: url(../img/iphone-icon.png);
+    float: left;
+    width: 15px;
+    height: 24px;
+}
+
+.header .app-download a .apptext{
+    float: left;
+    font-size: 16px;
+    color: #000;
+    height: 24px;
+    line-height: 24px;
+    margin: 0 7px;
+}
+
+
+
